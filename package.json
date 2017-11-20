@@ -1,0 +1,15 @@
+{
+  "name": "safranbolu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "poi dev -c config.js --templateCompiler",
+    "build": "poi build -c config.js --templateCompiler",
+    "deploy": "poi build --templateCompiler"
+  },
+  "dependencies": {
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  }
+}
